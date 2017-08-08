@@ -36,8 +36,20 @@ PM整理以上需求，並討論相關解決方案，以下列點說明：
 
 ### Step3.解決問題：
   1.首頁：
-
+  
+  https://cosjava26.github.io/guide_blog/index.html
   - 大區塊文章露出
   - 文章排列樣式改成**左右兩則**，顯示首圖、標題文字在圖下方、文章描述、作者、發表時間、該篇文章fb分享數(social plugin)，以上全都可點擊進文章，點擊作者進入作者介紹頁!
 
 ![首頁](http://i.imgur.com/e7Sysuf.png)
+
+  2.文章內頁：
+  
+  https://cosjava26.github.io/guide_blog/news_content.html
+  
+  - 制定文章段落標題樣式：可清楚看到文章有幾段
+  - 段落裡的次標題樣式：小重點條列icon
+  - 文章內容的樣式：字級、字距、行距、顏色、重點引言、表格樣式呈現、youtube RWD、相關文章連結區塊、文末作者簡介
+  <br />
+  
+  ![文章內頁](http://i.imgur.com/Vh8YlwO.png)
