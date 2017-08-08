@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.lb_box{
+	box-shadow: 0 0 13px 0 rgba(0%,0%,0%,0.5);
+	background-color: #FFF;
+	border: 1px solid #393f4e;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	color: #656c7d;
+}
+.lb_logo {
+	position: relative;
+	width: 256px;
+	margin: 20px auto 0 auto;
+	
+}
+.lb_logo img {
+	width: 100%;
+}
+.lb_box p{
+	margin: 0px;
+	padding-top: inherit;
+	padding-bottom: 5px;
+	font-size: 15px;
+	line-height: 20px;
+}
+p.content-p{
+	padding-right: 25px;
+}
+.lb_box a{
+	color: #5372b4;
+}
+.lb_box a:hover{
+	text-decoration: underline;
+}
+
+
+/****** Checkbox start ******/
+input[type="checkbox"] {
+	display: none;
+	display: inline-block\9;     /*-- IE --*/
+	padding-left: 7px\9;         /*-- IE --*/
+	padding-top: 8px\9;          /*-- IE --*/
+	vertical-align: top\9;       /*-- IE --*/
+	float: left\9;               /*-- IE --*/
+}
+input[type="checkbox"] + label span.filter_checkbox {
+    display: block;
+	float: left;
+    width: 26px;
+    height: 26px;
+    vertical-align: top;
+    background: url(../images/EZ-icons.png) scroll -163px 0 no-repeat;
+    cursor: pointer;
+	display: none\9;        /*-- IE --*/
+}
+input[type="checkbox"]:checked + label span.filter_checkbox {
+    background: url(../images/EZ-icons.png) scroll -163px -26px no-repeat;
+	display: none\9;        /*-- IE --*/
+}
+input[type="checkbox"] + label span.filter_name{
+	display: block;
+	float: left;
+	color: #666666;
+	width: 170px;
+	line-height: 18px;
+	vertical-align: middle;
+	word-break: break-all;
+	padding: 3px;
+	padding-left: 6px\9;   /*-- IE --*/
+}
+input[type="checkbox"] + label span.filter_name:hover {
+	text-decoration: none;
+	color: #666666;
+	cursor: pointer;
+}
+
+/****** Checkbox end ******/
+
+
+.lb_bd{
+	padding: 20px;
+}
+.contact_lbbox .lb_bd{
+	padding: 20px 25px;
+	padding-right: 0;
+}
+.lb_closebox{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+a.lb_closebtn{
+	background-image: url(../images/btn_close.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent:-9999px;
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+a.lb_closebtn:active{
+	margin-top: 1px;
+}
+.lb_backbox{
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+a.lb_backbtn{
+	font-size: 13px;
+	line-height: 20px;
+}
+.lb_skipbox{
+	width: 100px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	text-align: right;
+}
+a.lb_skipbtn{
+	font-size: 13px;
+	line-height: 20px;
+	
+}
+.lb_input_p{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.lb_input{
+	border: 1px solid #a8adb9;
+	border-radius: 3px;
+	font-size: 15px;
+	color: #999999;
+	line-height: 1em;
+	padding: 8px 4px;
+
+	margin: 0;
+}
+.lb_input:focus {
+   	border: 1px solid #ff6606;
+	color: #333333;
+}
+.lb_input_wrote {
+	background-color: #ebebeb;
+}
+.lb_iw01{
+	width: 300px;
+	margin-bottom: 5px;
+}
+.lb_iw02{
+	width: 340px;
+	margin-bottom: 5px;
+}
+.lb_iw03{
+	width: 220px;
+}
+.lb_iw04{
+	width: 261px;
+}
+.lb_iw05{
+	width: 540px;
+}
+.lb_textarea{
+	height: 110px;
+	font-size: 15px;
+	line-height: 20px;
+	margin-top: 2px;
+}
+.refresh_captcha{
+	width: 20px;
+	height: 20px;
+	background: url(../images/refresh_captcha.png) -5px -5px;
+	border: none;
+	cursor: pointer;
+}
+.refresh_captcha:hover,
+.refresh_captcha:active{
+	background: url(../images/refresh_captcha.png) -35px -5px;
+}
+.lb_captcha{
+	width: 205px;
+}
+/***
+.lp_sendbtn{
+	font-size: 15px;
+	line-height: 35px;
+	color: #FFF;
+	background-color: #393f4e;
+	text-align: center;
+	display: block;
+	border: none;
+	height: 35px;
+	text-decoration: none;
+	margin-top: 5px;
+}
+*/
+.lp_sendbtn{
+	background-color:#393f4e;
+	border:1px solid #393f4e;
+	height: 35px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	text-decoration:none;
+}
+.lp_sendbtn:active{
+	background-color: #2c3039;
+	position:relative;
+	top:1px;
+}
+.lp_sendbtn:hover{
+	text-decoration: none;
+}
+.lb_sbw01{
+	width: 310px;
+}
+.lb_sbw02{
+	width: 350px;
+}
+.lb_sbw03{
+	width: 80px;
+}
+.lb_sbw04{
+	width: 110px;
+}
+.lp_btnpadding{
+}
+.captcha_img{
+	width: 140px;
+	float: left;
+	text-align: center;
+}
+.captcha_txt{
+	float: left;
+	font-size: 13px;
+	line-height: 40px;
+	height: 40px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/* 外站 */
+html.lb_box_other-html{
+	height: 100%;
+}
+body.lb_box_other-body{
+	background: #f6f6f6;
+	position: relative;
+	height: 100%;
+	margin: 0;
+}
+.lb_box_other-body .lb_box{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	box-shadow: 0 0 20px 5px rgba(0%,0%,0%,0.15);
+	border: none;
+	border-radius: 15px
+}
+.lb_box_other-body .member_lbbox {
+	margin-top: -215px;
+}
+.lb_box_other-body .contact_lbbox {
+	margin-top: -200px;
+}
+.lb_box_other-body .lb_closebox{
+	display:none;
+}

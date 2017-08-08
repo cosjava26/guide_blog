@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <title>購物達人 - EZprice比價網</title>
+    <link href='./style/images/ezprice.ico' rel='shortcut icon'>
+    <link href='./style/css/ezprice.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="./style/css/magnific-popup.css">
+    <link rel="stylesheet" href="./style/css/flexslider.css">   
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.4&appId=205059872856036";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class='WD_H'>
+      <div class='HD'>
+        <div class='HD_bgc'></div>
+        <div class='width_fix'>
+          <div class='HD_Logo'>
+            <a class='HD_Logo_a' href='http://ezprice.com.tw'>
+              <img alt='EZprice比價網' class='HD_Logo_img' src='http://ezprice.com.tw/jonStyle/img/EZprice-logo.jpg'>
+            </a>
+          </div>
+          <div class='HD_Menu'>
+            <div class='HD_Channel'>
+              <div class='HD_Channel_List'>
+                <a class='HD_Channel_item' href='#' target='_blank' title='信用卡比較'>信用卡比較</a>
+                <a class='HD_Channel_item' href='#' target='_blank' title='購物達人'>購物達人</a>
+                <a class='HD_Channel_item' href='#' target='_blank' title='穿什麼'>穿什麼</a>
+                <a class='HD_Channel_item' href='#' target='_blank' title='電商百大人才'>電商百大人才</a>
+                <a class='HD_Channel_item' href='#' target='_blank' title='電商大數據'>電商大數據</a>
+                <a class='HD_Channel_item' href='#' target='_blank' title='公關室'>公關室</a>
+                <a class='HD_Channel_item' href='#' target='_blank' title='比價神器'>比價神器</a>
+              </div>
+              <div class='HD_Social'>
+                <a class='HD_Social_item facebook' href='https://www.facebook.com/EZprice.tw?fref=ts' target='_blank'></a>
+                <a class='HD_Social_item google' href='https://plus.google.com/+EZpricetw/posts' target='_blank'>
+                  <img alt='Google+' src='//ssl.gstatic.com/images/icons/gplus-32.png' style='display:none;'>
+                </a>
+              </div>
+            </div>
+            <div class='HD_Nav'>
+              <div class='HD_Unit_Area'>
+                <div class='HD_Unit'>
+                  <div class='HD_Unit_Box'>
+                    <div class='HD_Unit_list_item'>
+                      <div class='HD_Search'>
+                        <form action='http://ezprice.com.tw/price_list.php' enctype='multipart/form-data' id='submit' method='get' name='srhform'>
+                          <div class='HD_Search_Box'>
+                            <div class='HD_Search_text_outer'>
+                              <input autocomplete='off' class='HD_Search_text' id='srhkw1' name='kw' placeholder='站內搜尋' type='text'>
+                            </div>
+                            <div class='HD_Search_suggestion' style='display: none;'>
+                              <li>
+                                <a class='HD_Search_suggestion_item' href='/'><span class='_input'>S</span>ony sid asdoij apsoa asojdao aopeijaoij
+                                </a>
+                              </li>
+                              <li>
+                                <a class='HD_Search_suggestion_item' href='/'><span class='_input'>S</span>ony
+                                </a>
+                              </li>
+                              <li>
+                                <a class='HD_Search_suggestion_item' href='/'><span class='_input'>S</span>ony
+                                </a>
+                              </li>
+                              <li>
+                                <a class='HD_Search_suggestion_item' href='/'><span class='_input'>S</span>ony
+                                </a>
+                              </li>
+                              <li>
+                                <a class='HD_Search_suggestion_item' href='/'><span class='_input'>S</span>ony
+                                </a>
+                              </li>
+                            </div>
+                          </div>
+                          <input class='HD_Search_btn' id='srh_btn' type='button'>
+                        </form>
+                      </div>
+                    </div>
+                    <div class='user_menu'>
+                      <div class='user_menu_btn'>
+                        <!-- 未登入 -->
+                        <span class="user_menu_icon"></span>
+                        <span class="user_menu_text">登入 / 註冊</span>
+                        
+                        <!-- 已登入 -->
+                        <!-- <div class='user_info'>
+                          <span class='profilepic'>
+                            <img height='25' src='https://graph.facebook.com/841816825860541/picture?type=small' width='25'>
+                          </span>
+                          <span class='username'>Jennifer Chen</span>
+                          <div class='notice-count'>3</div>
+                        </div> -->
+                      </div>
+                      <div class="user_menu_list">
+                        <ul>                                        
+                          <li>
+                            <a href="http://reg.ezprice.com.tw/shoplist.php" id="user_want" _hover-ignore="1">我的收藏</a>
+                          </li>
+                          <li>
+                            <a href="http://reg.ezprice.com.tw/cplist.php" id="user_search" _hover-ignore="1">瀏覽記錄</a>
+                          </li>
+                          <li>
+                            <a href="http://reg.ezprice.com.tw/discount.php" id="user_promotion">我的購物金</a>
+                          </li>
+                          <li>
+                            <a href="http://reg.ezprice.com.tw/member.php" id="user_note">會員資料</a>
+                          </li>
+                          <li>
+                            <a href="#test-popup" class="open-popup-link" id="user_log_out">登入/註冊</a>
+                            <!-- <a href="http://reg.ezprice.com.tw/logout.php?nu=aHR0cDovL2V6cHJpY2UuY29tLnR3Lw==" id="user_log_out">登出</a> -->
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='_unit_more'></div>
+                </div>
+              </div>
+              <div class='HD_Cate_Box'>
+                <div class='HD_Cate'></div>
+                <ul class='HD_Cate_list_pad'>
+                  <li>
+                    <a class='HD_Cate_item' href='#'>EZprice比價網</a>
+                  </li>
+                  <li>
+                    <a class='HD_Cate_item' href='#'>信用卡比較</a>
+                  </li>
+                  <li>
+                    <a class='HD_Cate_item' href='#'>穿什麼</a>
+                  </li>
+                  <li>
+                    <a class='HD_Cate_item' href='#'>電商百大人才</a>
+                  </li>
+                  <li>
+                    <a class='HD_Cate_item' href='#'>電商大數據</a>
+                  </li>
+                  <li>
+                    <a class='HD_Cate_item' href='#'>公關室</a>
+                  </li>
+                  <li>
+                    <a class='HD_Cate_item' href='#'>比價神器</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='HD_SearchTools'>
+                <div class='HD_Search'>
+                  <form action='http://ezprice.com.tw/price_list.php' enctype='multipart/form-data' id='submit' method='get' name='srhform'>
+                    <div class='HD_Search_Box'>
+                      <div class='HD_Search_text_outer'>
+                        <input autocomplete='off' class='HD_Search_text' id='srhkw1' name='kw' placeholder='站內搜尋' type='text'>
+                      </div>
+                      <div class='HD_Search_suggestion' style='display: none;'>
+                        <li>
+                          <a class='HD_Search_suggestion_item' href='/'><span class='_input'>S</span>ony sid asdoij apsoa asojdao aopeijaoij
+                          </a>
+                        </li>
+                        <li>
+                          <a class='HD_Search_suggestion_item' href='/'><span class='_input'>S</span>ony
+                          </a>
+                        </li>
+                        <li>
+                          <a class='HD_Search_suggestion_item' href='/'><span class='_input'>S</span>ony
+                          </a>
+                        </li>
+                        <li>
+                          <a class='HD_Search_suggestion_item' href='/'><span class='_input'>S</span>ony
+                          </a>
+                        </li>
+                        <li>
+                          <a class='HD_Search_suggestion_item' href='/'><span class='_input'>S</span>ony
+                          </a>
+                        </li>
+                      </div>
+                    </div>
+                    <input class='HD_Search_btn' id='srh_btn' type='button'>
+                  </form>
+                </div>
+              </div>
+              <div class='m_user_menu'>
+                <div class='user_menu_btn'>
+                  <!-- 未登入 -->
+                  <span class="user_menu_icon"></span>
+                  <!-- 已登入 -->
+                  <!-- <div class='user_info'>
+                    <span class='profilepic'>
+                      <img height='25' src='https://graph.facebook.com/841816825860541/picture?type=small' width='25'>
+                    </span>
+                    <span class='username'>Jennifer Chen</span>
+                    <div class='notice-count'>3</div>
+                  </div> -->
+                </div>
+                <div class="user_menu_list">
+                  <ul>                                        
+                    <li>
+                      <a href="http://reg.ezprice.com.tw/shoplist.php" id="user_want" _hover-ignore="1">我的收藏</a>
+                    </li>
+                    <li>
+                      <a href="http://reg.ezprice.com.tw/cplist.php" id="user_search" _hover-ignore="1">瀏覽記錄</a>
+                    </li>
+                    <li>
+                      <a href="http://reg.ezprice.com.tw/discount.php" id="user_promotion">我的購物金</a>
+                    </li>
+                    <li>
+                      <a href="http://reg.ezprice.com.tw/member.php" id="user_note">會員資料</a>
+                    </li>
+                    <li>
+                      <a href="#test-popup" class="open-popup-link" id="user_log_out">登入/註冊</a>
+                      <!-- <a href="http://reg.ezprice.com.tw/logout.php?nu=aHR0cDovL2V6cHJpY2UuY29tLnR3Lw==" id="user_log_out">登出</a> -->
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='BD bg_gray'>
+        <div class='width_fix'>
+          <div class='PageContainer'>
+            <div class='Breadcrumbs'><a class='Path' href='#'>EZprice比價網</a>&rsaquo;<a class='Path' href='#'>分類位置</a>&rsaquo;
+              <span class='PathCurrent'>分頁位置</span>
+            </div>
+            <!-- <div class="dropdown">
+              <select class='dropdown-select'>
+                <option value='1'>文章分類</option>
+                <option value='2'>電視秘笈</option>
+                <option value='3'>冷氣秘笈</option>
+                <option value='4'>聰明省錢方法</option>
+                <option value='5'>旅遊購物生活</option>
+                <option value='6'>日本旅遊！</option>
+                <option value='7'>APP教戰守則</option>
+                <option value='8'>趣味大師選品</option>
+                <option value='9'>生活優惠</option>
+                <option value='10'>信用卡使用攻略</option>
+                <option value='11'>Apple購買推薦 </option>
+                <option value='12'>購物低價攻略 - 手機篇 </option>
+                <option value='13'>購物低價攻略 - 家電篇 </option>
+                <option value='14'>購物低價攻略 - 食品篇 </option>
+                <option value='15'>購物低價攻略 - 美妝篇 </option>
+                <option value='16'>購物低價攻略 - 3C電腦篇 </option>
+                <option value='17'>EZprice官方公告</option>
+                <option value='18'>其他</option>
+              </select>
+            </div> -->
+            <div class='ArticleContent'>
+              <div class='art_list_Box'>
+                <div class="guide_title">
+                  <span class="img_title"></span>
+                  <h1 class="main_title">購物達人-聰明購物，歡樂生活</h1>
+                </div>
+                <div class="flexslider">
+                  <ul class="slides">
+                    <li>
+                      <a href="http://guide.ezprice.com.tw/5986/" target="_blank">
+                        <img src="http://i.imgur.com/bckIoWG.jpg" />
+                        <p class="flex-caption">
+                          <span>出國就是要買Dyson啊！不然要幹麻！【台灣、日本、美國、德國、英國  型號/價格 大統整】
+                          </span>
+                        </p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://guide.ezprice.com.tw/5965/" target="_blank">
+                        <img src="http://i.imgur.com/2DtCksZ.jpg" />
+                        <p class="flex-caption">
+                          <span>燦坤9/3日會員日降價時間表 之 EZprice精華再整理！</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://guide.ezprice.com.tw/3914/" target="_blank">
+                        <img src="http://i.imgur.com/78YRAqs.jpg" />
+                        <p class="flex-caption">
+                          <span>【精華】iPhone6S發表前最後價格預測！</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://guide.ezprice.com.tw/5317/" target="_blank">
+                        <img src="http://i.imgur.com/OLLkAhM.jpg" />
+                        <p class="flex-caption">
+                          <span>【精華】以超低價格入手最新版Macbook Air 的攻略！更新至 2015/08/31</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://guide.ezprice.com.tw/5527/" target="_blank">
+                        <img src="http://i.imgur.com/2DtCksZ.jpg" />
+                        <p class="flex-caption">
+                          <span>超夯5大熱銷品，這樣買最划算！ 日本Bic Camera + 信用卡優惠 超強攻略！！</span>
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class='art_list art_list_border'>
+                  <div class='art_list_pic'>
+                    <a href='./news_content.html'>
+                      <img alt='' src='http://i.imgur.com/AlTbVJK.png'>
+                    </a>
+                  </div>
+                  <div class='art_list_text'>
+                    <div class='art_title'>
+                      <a href='./news_content.html'>規劃保單免煩惱，EZprice保險比價幫你輕鬆試算保單！
+                      </a>
+                    </div>
+                    <div class='art_date clearfix'>
+                      <span class="art_date_author">by<a href='#'>&nbsp;EZprice購物達人&nbsp;</a>2014-09-16</span>
+                      <div class="fb-like" data-layout="button_count"></div>
+                    </div>
+                    <div class='art_desc'>
+                      買保險只能靠保險業務員嗎？ 股神巴菲特說：「永遠不要問理髮師你是否該剪頭髮！」基於這樣的利益衝突，會讓你被保險業務員牽著鼻子走，一旦買錯保險，風險得要自己承擔，所以最能相信的只有自己。 但是保險很複雜耶，我真的搞得懂嗎？
+                    </div>
+                    <span class='art_more'><a href='./news_content.html'>繼續閱讀</a></span>
+                  </div>
+                </div>
+                <div class='art_list'>
+                  <div class='art_list_pic'>
+                    <a href='./news_content.html'>
+                      <img alt='' src='http://i.imgur.com/Dvyq747.png'>
+                    </a>
+                  </div>
+                  <div class='art_list_text'>
+                    <div class='art_title'>
+                      <a href='./news_content.html'>出國就是要買Dyson啊！不然要幹麻！【台灣、日本、美國、德國、英國  型號/價格 大統整】
+                      </a>
+                    </div>
+                    <div class='art_date clearfix'>
+                      <span class="art_date_author">by<a href='#'>&nbsp;EZprice購物達人&nbsp;</a>2014-09-16</span>
+                      <div class="fb-like" data-layout="button_count"></div>
+                    </div>
+                    <div class='art_desc'>
+                      Dyson已經成為大家出國旅遊的必買商品之一，但你知道要怎麼下手嗎? 台灣、美國、日本、德國、英國 型號/價格 比較， 到底哪一國最便宜??
+                    </div>
+                    <span class='art_more'><a href='./news_content.html'>繼續閱讀</a></span>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class='art_list art_list_border'>
+                  <div class='art_list_pic'>
+                    <a href='./news_content.html'>
+                      <img alt='' src='http://i.imgur.com/rWfDPY1.png'>
+                    </a>
+                  </div>
+                  <div class='art_list_text'>
+                    <div class='art_title'><a href='./news_content.html'>燦坤9/3日會員日降價時間表 之 EZprice精華再整理！</a></div>
+                    <div class='art_date clearfix'>
+                      <span class="art_date_author">by<a href='#'>&nbsp;EZprice購物達人&nbsp;</a>2014-09-16</span>
+                      <div class="fb-like" data-layout="button_count"></div>
+                    </div>
+                    <div class='art_desc'>
+                      燦坤強大的9/3日會員必買日再次降臨！C編剛剛搶ipad失敗現在在辦公室怒訂便當！ 不廢話之快速整理，有疑問的捧友歡迎來訊粉絲團或在下方留言討論！
+                    </div>
+                    <span class='art_more'><a href='./news_content.html'>繼續閱讀</a></span>
+                  </div>
+                </div>
+                <div class='art_list'>
+                  <div class='art_list_pic'>
+                    <a href='./news_content.html'>
+                      <img alt='' src='http://i.imgur.com/RzrvcJ4.png'>
+                    </a>
+                  </div>
+                  <div class='art_list_text'>
+                    <div class='art_title'><a href='./news_content.html'>【精華】iPhone6S發表前最後價格預測！</a></div>
+                    <div class='art_date clearfix'>
+                      <span class="art_date_author">by<a href='#'>&nbsp;EZprice購物達人&nbsp;</a>2014-09-16</span>
+                      <div class="fb-like" data-layout="button_count"></div>
+                    </div>
+                    <div class='art_desc'>
+                      "iPhone 6S”跟"iPhone 6S Plus”在外型和設計上，不會有太大的改變。 所以不要再相信一些莫名其妙的弧狀結構呀啊、完全無框手機呀之類的網友空想圖了。
+                    </div>
+                    <span class='art_more'><a href='./news_content.html'>繼續閱讀</a></span>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class='art_list art_list_border'>
+                  <div class='art_list_pic'>
+                    <a href='./news_content.html'>
+                      <img alt='' src='http://i.imgur.com/9Jhk94C.png'>
+                    </a>
+                  </div>
+                  <div class='art_list_text'>
+                    <div class='art_title'>
+                      <a href='./news_content.html'>
+                        【精華】以超低價格入手最新版Macbook Air 的攻略！更新至 2015/08/31
+                      </a>
+                    </div>
+                    <div class='art_date clearfix'>
+                      <span class="art_date_author">by<a href='#'>&nbsp;EZprice購物達人&nbsp;</a>2014-09-16</span>
+                      <div class="fb-like" data-layout="button_count"></div>
+                    </div>
+                    <div class='art_desc'>
+                      2015年最新macbook air用超低價買走！你沒聽錯！比價網現在開始要教大家如何從低價中再多省一些了！
+                    </div>
+                    <span class='art_more'><a href='./news_content.html'>繼續閱讀</a></span>
+                  </div>
+                </div>
+                <div class='art_list'>
+                  <div class='art_list_pic'>
+                    <a href='./news_content.html'>
+                      <img alt='' src='http://i.imgur.com/zZhbhvg.png'>
+                    </a>
+                  </div>
+                  <div class='art_list_text'>
+                    <div class='art_title'><a href='./news_content.html'>超夯5大熱銷品，這樣買最划算！ 日本Bic Camera + 信用卡優惠 超強攻略！！</a></div>
+                    <div class='art_date clearfix'>
+                      <span class="art_date_author">by<a href='#'>&nbsp;EZprice購物達人&nbsp;</a>2014-09-16</span>
+                      <div class="fb-like" data-layout="button_count"></div>
+                    </div>
+                    <div class='art_desc'>
+                      去日本買東西，除了了解匯率變動外，還有很多方式可以讓你買的更便宜! 如果要購買電器類產品，建議先到「Kakaku.com」(日本價格網)了解價格區間後，再針對日本大型電器商家：Bic camera進行比價，因為除了享有退稅優惠外，還享有額外6-8%的折扣，且若再加
+                    </div>
+                    <span class='art_more'><a href='./news_content.html'>繼續閱讀</a></span>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class='art_list art_list_border'>
+                  <div class='art_list_pic'>
+                    <a href='./news_content.html'>
+                      <img alt='' src='http://i.imgur.com/AlTbVJK.png'>
+                    </a>
+                  </div>
+                  <div class='art_list_text'>
+                    <div class='art_title'>
+                      <a href='./news_content.html'>規劃保單免煩惱，EZprice保險比價幫你輕鬆試算保單！
+                      </a>
+                    </div>
+                    <div class='art_date clearfix'>
+                      <span class="art_date_author">by<a href='#'>&nbsp;EZprice購物達人&nbsp;</a>2014-09-16</span>
+                      <div class="fb-like" data-layout="button_count"></div>
+                    </div>
+                    <div class='art_desc'>
+                      買保險只能靠保險業務員嗎？ 股神巴菲特說：「永遠不要問理髮師你是否該剪頭髮！」基於這樣的利益衝突，會讓你被保險業務員牽著鼻子走，一旦買錯保險，風險得要自己承擔，所以最能相信的只有自己。 但是保險很複雜耶，我真的搞得懂嗎？
+                    </div>
+                    <span class='art_more'><a href='./news_content.html'>繼續閱讀</a></span>
+                  </div>
+                </div>
+                <div class='art_list'>
+                  <div class='art_list_pic'>
+                    <a href='./news_content.html'>
+                      <img alt='' src='http://i.imgur.com/Dvyq747.png'>
+                    </a>
+                  </div>
+                  <div class='art_list_text'>
+                    <div class='art_title'>
+                      <a href='./news_content.html'>出國就是要買Dyson啊！不然要幹麻！【台灣、日本、美國、德國、英國  型號/價格 大統整】
+                      </a>
+                    </div>
+                    <div class='art_date clearfix'>
+                      <span class="art_date_author">by<a href='#'>&nbsp;EZprice購物達人&nbsp;</a>2014-09-16</span>
+                      <div class="fb-like" data-layout="button_count"></div>
+                    </div>
+                    <div class='art_desc'>
+                      Dyson已經成為大家出國旅遊的必買商品之一，但你知道要怎麼下手嗎? 台灣、美國、日本、德國、英國 型號/價格 比較， 到底哪一國最便宜??
+                    </div>
+                    <span class='art_more'><a href='./news_content.html'>繼續閱讀</a></span>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class='art_list art_list_border'>
+                  <div class='art_list_pic'>
+                    <a href='./news_content.html'>
+                      <img alt='' src='http://i.imgur.com/rWfDPY1.png'>
+                    </a>
+                  </div>
+                  <div class='art_list_text'>
+                    <div class='art_title'><a href='./news_content.html'>燦坤9/3日會員日降價時間表 之 EZprice精華再整理！</a></div>
+                    <div class='art_date clearfix'>
+                      <span class="art_date_author">by<a href='#'>&nbsp;EZprice購物達人&nbsp;</a>2014-09-16</span>
+                      <div class="fb-like" data-layout="button_count"></div>
+                    </div>
+                    <div class='art_desc'>
+                      燦坤強大的9/3日會員必買日再次降臨！C編剛剛搶ipad失敗現在在辦公室怒訂便當！ 不廢話之快速整理，有疑問的捧友歡迎來訊粉絲團或在下方留言討論！
+                    </div>
+                    <span class='art_more'><a href='./news_content.html'>繼續閱讀</a></span>
+                  </div>
+                </div>
+                <div class='art_list'>
+                  <div class='art_list_pic'>
+                    <a href='./news_content.html'>
+                      <img alt='' src='http://i.imgur.com/RzrvcJ4.png'>
+                    </a>
+                  </div>
+                  <div class='art_list_text'>
+                    <div class='art_title'><a href='./news_content.html'>【精華】iPhone6S發表前最後價格預測！</a></div>
+                    <div class='art_date clearfix'>
+                      <span class="art_date_author">by<a href='#'>&nbsp;EZprice購物達人&nbsp;</a>2014-09-16</span>
+                      <div class="fb-like" data-layout="button_count"></div>
+                    </div>
+                    <div class='art_desc'>
+                      "iPhone 6S”跟"iPhone 6S Plus”在外型和設計上，不會有太大的改變。 所以不要再相信一些莫名其妙的弧狀結構呀啊、完全無框手機呀之類的網友空想圖了。
+                    </div>
+                    <span class='art_more'><a href='./news_content.html'>繼續閱讀</a></span>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class='PageArea'>
+                  <a class='PageLast _disabled'><i class="fa fa-angle-left fa-lg fa-padding-left"></i>上一頁</a>
+                  <a class='PageLast' href='#'><i class="fa fa-angle-left fa-lg fa-padding-left"></i>上一頁</a>
+                  <a class='num' href='#'>1</a>
+                  <a class='num num' href='#'>2</a>
+                  <a class='num' href='#'>3</a>
+                  <a class='num _current'>4</a>
+                  <a class='num' href='#'>5</a>
+                  <span class='num ellipsis'>...</span>
+                  <a class='num' href='#'>100</a>
+                  <a class='PageNext' href='#'>下一頁<i class="fa fa-angle-right fa-lg fa-padding-right"></i></a>
+                  <a class='PageNext _disabled'>下一頁<i class="fa fa-angle-right fa-lg fa-padding-right"></i></a>
+                </div>
+              </div>
+              <div class='art_md_list_Box'>
+                <div class="art_moduleBox">
+                  <div class="art_ifBox">
+                    <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/EZprice.tw" data-width="300" data-height="440" data-hide-cover="false" data-show-facepile="true" data-show-posts="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=224878280879155&amp;container_width=300&amp;height=440&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FEZprice.tw&amp;locale=zh_TW&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=true&amp;width=300"><span style="vertical-align: bottom; width: 300px; height: 440px;"><iframe name="f3898d9ffc" width="300px" height="440px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="http://www.facebook.com/v2.3/plugins/page.php?app_id=224878280879155&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FQrU_tEEWym9.js%3Fversion%3D41%23cb%3Df296b96b68%26domain%3Dguide.ezprice.com.tw%26origin%3Dhttp%253A%252F%252Fguide.ezprice.com.tw%252Ff1b13e01bc%26relation%3Dparent.parent&amp;container_width=300&amp;height=440&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FEZprice.tw&amp;locale=zh_TW&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=true&amp;width=300" style="border: none; visibility: visible; width: 300px; height: 440px;" class=""></iframe></span></div>
+                  </div>
+                </div>
+                <div class='art_moduleBox' style='box-shadow:none; background:none;'>
+                  <div class='md_btnBox'>
+                    <div class='btnBox _object'>
+                      <a href='#'>
+                        <span class='_text'>
+                          訂閱達人文章
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class='art_moduleBox'>
+                  <div class='art_mdTitle'>
+                    熱門文章
+                    <!-- <span class='moreBox'>
+                      <a href='#'>
+                        更多
+                      </a>
+                    </span> -->
+                  </div>
+                  <div class='art_mdContent'>
+                    <ul class='art_mdList'>
+                      <li class='md_listItem'>
+                        <a href='#'>最新文章最新文章最新文章最新文章最新文章最新文章</a>
+                        <div class='md_info'>
+                          <div class='md_infoView'>9人看過</div>
+                          <div class='md_infoDate'>2014/09/17</div>
+                        </div>
+                      </li>
+                      <li class='md_listItem'>
+                        <a href='#'>最新文章最新文章最新文章最新文章最新文章最新文章</a>
+                        <div class='md_info'>
+                          <div class='md_infoView'>9人看過</div>
+                          <div class='md_infoDate'>2014/09/17</div>
+                        </div>
+                      </li>
+                      <li class='md_listItem'>
+                        <a href='#'>最新文章最新文章最新文章最新文章最新文章最新文章</a>
+                        <div class='md_info'>
+                          <div class='md_infoView'>9人看過</div>
+                          <div class='md_infoDate'>2014/09/17</div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class='art_moduleBox'>
+                  <div class='art_mdTitle'>
+                    最新文章
+                    <!-- <span class='moreBox'>
+                      <a href='#'>
+                        更多
+                      </a>
+                    </span> -->
+                  </div>
+                  <div class='art_mdContent'>
+                    <ul class='art_mdList'>
+                      <li class='md_listItem'>
+                        <a href='#'>最新文章最新文章最新文章最新文章最新文章最新文章</a>
+                        <div class='md_info'>
+                          <div class='md_infoView'>9人看過</div>
+                          <div class='md_infoDate'>2014/09/17</div>
+                        </div>
+                      </li>
+                      <li class='md_listItem'>
+                        <a href='#'>最新文章最新文章最新文章最新文章最新文章最新文章</a>
+                        <div class='md_info'>
+                          <div class='md_infoView'>9人看過</div>
+                          <div class='md_infoDate'>2014/09/17</div>
+                        </div>
+                      </li>
+                      <li class='md_listItem'>
+                        <a href='#'>最新文章最新文章最新文章最新文章最新文章最新文章</a>
+                        <div class='md_info'>
+                          <div class='md_infoView'>9人看過</div>
+                          <div class='md_infoDate'>2014/09/17</div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class='art_moduleBox'>
+                  <div class='art_mdTitle'>
+                    文章分類
+                  </div>
+                  <div class='art_mdContent'>
+                    <ul class='art_mdList'>
+                      <li class='md_listItem'>
+                        <a href='#'>文章分類文章分類</a>
+                        <span>(15篇)</span>
+                      </li>
+                    </ul>
+                    <ul class='art_mdList'>
+                      <li class='md_listItem _open'>
+                        <a href='#'>文章分類文章分類</a>
+                        <span>(15篇)</span>
+                      </li>
+                    </ul>
+                    <ul class='art_mdList'>
+                      <li class='md_listItem _close'>
+                        <a href='#'>文章分類文章分類</a>
+                        <span>(15篇)</span>
+                        <ul class='sub_mdList'>
+                          <li class='sub_mdList_Item'>
+                            <span class='_dot'></span>
+                            <a href='#'>次分類次分類</a>
+                          </li>
+                          <li class='sub_mdList_Item'>
+                            <span class='_dot'></span>
+                            <a href='#'>次分類次分類</a>
+                          </li>
+                          <li class='sub_mdList_Item'>
+                            <span class='_dot'></span>
+                            <a href='#'>次分類次分類</a>
+                          </li>
+                          <li class='sub_mdList_Item'>
+                            <span class='_dot'></span>
+                            <a href='#'>次分類次分類</a>
+                          </li>
+                          <li class='sub_mdList_Item'>
+                            <span class='_dot'></span>
+                            <a href='#'>次分類次分類</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class='md_listItem _close'>
+                        <a href='#'>文章分類文章分類</a>
+                        <span>(15篇)</span>
+                        <ul class='sub_mdList'>
+                          <li class='sub_mdList_Item'>
+                            <span class='_dot'></span>
+                            <a href='#'>次分類次分類</a>
+                          </li>
+                          <li class='sub_mdList_Item'>
+                            <span class='_dot'></span>
+                            <a href='#'>次分類次分類</a>
+                          </li>
+                          <li class='sub_mdList_Item'>
+                            <span class='_dot'></span>
+                            <a href='#'>次分類次分類</a>
+                          </li>
+                          <li class='sub_mdList_Item'>
+                            <span class='_dot'></span>
+                            <a href='#'>次分類次分類</a>
+                          </li>
+                          <li class='sub_mdList_Item'>
+                            <span class='_dot'></span>
+                            <a href='#'>次分類次分類</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class='art_moduleBox md_searchBox'>
+                  <div class='art_mdTitle'>
+                    站內搜尋
+                  </div>
+                  <div class='art_mdContent'>
+                    <div class='HD_Search'>
+                      <form action='http://ezprice.com.tw/price_list.php' enctype='multipart/form-data' id='submit' method='get' name='srhform'>
+                        <div class='HD_Search_Box'>
+                          <div class='HD_Search_text_outer'>
+                            <input autocomplete='off' class='HD_Search_text' id='srhkw1' name='kw' placeholder='站內搜尋' type='text'>
+                          </div>
+                        </div>
+                        <input class='HD_Search_btn' id='srh_btn' type='button'>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='FT tailbox'>
+          <div class='width_fix'>
+            <div class="tail_logo">
+              <div class="EZ_logo"></div>
+              <div class="EZ_slogan">
+                輕鬆消費讓生活更美好！
+              </div>
+              <div class="EZ_rights">
+                © 2015 EZprice Co., Ltd. All rights reserved.<br>常年法律顧問: 明沂法律事務所
+              </div>
+            </div>
+            <div class="tail_list">
+              <span class="tail_title">EZprice比價網</span>
+              <a href="http://ezprice.com.tw/sitemap.php" class="option">網站地圖</a>
+              <a href="http://ezprice.com.tw/about_us.php" class="option">關於我們</a>
+              <a href="http://ezprice.com.tw/EZ_Careers.php" class="option">人才招募</a>
+              <a href="http://ezprice.com.tw/ezpd_contact_us.php" class="option fancybox fancybox.iframe">聯絡我們</a>
+              <a class="option" href="http://card.ezprice.com.tw/" title="信用卡繳稅優惠">信用卡報稅</a>
+            </div>
+            <div class="tail_list">
+              <span class="tail_title">合作方式</span>
+              <a href="http://ezprice.com.tw/ezpd_contact_us.php" class="option" target="_blank">刊登商品</a>
+              <a href="http://ezprice.com.tw/ezpd_contact_us.php?chk=1" class="option fancybox fancybox.iframe" target="_blank">刊登廣告</a>
+              <a href="http://pricetrack.ezprice.com.tw" class="option" target="_blank">價格監控</a>
+              <a href="http://ezprice.com.tw/ezpd_contact_us.php" class="option" target="_blank">電商廣告</a>
+              <a href="http://b2b.ezprice.com.tw/" class="option" target="_blank">企業黃頁</a>
+              <a href="http://ezprice.com.tw/ezpd_contact_us.php" class="option fancybox fancybox.iframe" target="_blank">其他合作</a>
+            </div>
+            <div class="tail_list">
+              <span class="tail_title">政策聲明</span>
+              <a href="http://ezprice.com.tw/antifraud.php" class="option">反詐騙聲明</a>
+              <a href="http://ezprice.com.tw/privacy_policy.php" class="option">隱私及會員條款</a>
+            </div>
+            <div class="tail_list">
+              <span class="tail_title">瀏覽方式</span>
+              <a href="http://ezprice.com.tw/?e=101" class="option">電腦版</a>
+              <a href="http://m.ezprice.com.tw/?e=111" class="option">手機版</a>
+              <a href="https://itunes.apple.com/tw/app/ezprice-zhao-bian-yi/id778505069?l=zh&amp;mt=8" class="option" title="EZprice 找便宜">iOS App</a>
+              <a href="https://play.google.com/store/apps/details?id=ez.ezprice2" class="option" title="EZprice 找便宜">Android App</a>
+              <a href="http://ezprice.com.tw/extensions/" class="option" title="瀏覽器外掛">EZprice找便宜</a>
+            </div>
+            <div class="tail_cooperation">
+              <span class="tail_title">合作廠商</span>
+              <div class="clear"></div>
+              <a class="co_logo">
+                <img src="http://ezprice.com.tw/images/co-yahoo.png" height="24">
+              </a>
+              <a class="co_logo">
+                <img src="http://ezprice.com.tw/images/co-momo.png" height="24">
+              </a>
+              <div class="clear"></div>
+              <a class="co_logo">
+                <img src="http://ezprice.com.tw/images/co-etmall.png" height="24">
+              </a>
+              <a class="co_logo">
+                <img src="http://ezprice.com.tw/images/co-umall.png" height="24">
+              </a>
+              <div class="clear"></div>
+              <a class="co_logo">
+                <img src="http://ezprice.com.tw/images/co-udn.png" height="24">
+              </a>
+              <a class="co_logo">
+                <img src="http://ezprice.com.tw/images/co-gohappy.png" height="24">
+              </a>
+              <div class="clear"></div>
+              <a href="http://ezprice.com.tw/partners.php" class="option">更多廠商...</a>
+            </div>
+            <div class="tail_gotop">
+              <a href="#" class="gotop_btn">回最上層</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='img-top' title='top'></div>
+      <!-- login 彈窗 -->
+      <div id="test-popup" class="white-popup mfp-hide">
+        <div class="mblb_title">會員登入</div>
+        <div class="mblb_mainbd">
+          <div class="mblb_mbdL mblb_content">
+            <p>使用社群帳號登入</p>
+            <a href="#" class="mblb_fbbtn">facebook login</a>
+            <img src="http://reg.ezprice.com.tw/images/loading_icon.gif" width="70" id="loadimg" style="display:none;">
+          </div>
+          <div class="mblb_mbdR mblb_content">  
+            <p>使用email帳號登入</p>
+            <ul>
+              <form name="form2" id="form2" action="http://reg.ezprice.com.tw/ezpd_login_do.php" method="POST" onsubmit="return CheckForm();">  
+              <li><input name="email" id="email" type="text" class="lb_input lb_iw01" placeholder="請輸入email" value=""></li>
+              <li><input name="pw" id="pw" type="password" class="lb_input lb_iw01" placeholder="請輸入密碼"></li>
+              <li>
+                <input type="hidden" name="scode" value="1435605944" maxlength="5">
+                <input type="hidden" name="sh_url" value="">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                  <tr>
+                    <td width="70" align="left" valign="middle"><img src="http://ezprice.com.tw/stores/img.php?scode=1435605944" width="60" height="20"></td>
+                    <td align="left" valign="middle"><input type="text" name="icode" id="icode" class="lb_input lb_iw01" style="width: 230px;" placeholder="請輸入認證碼"></td>
+                  </tr>
+                  </tbody>
+                </table>
+              </li>
+              <li class="mblb_rem_position">
+                <div class="mblb_remL mblb_rempd">
+                  <a class="option">
+                    <label for="1-1" style="cursor:pointer;">
+                      <input type="checkbox" id="1-1" name="remember">
+                      <span class="filter_name">記住我</span>
+                      <div class="clear"></div>
+                    </label>
+                  </a>
+                </div>
+                <div class="mblb_remR mblb_rempd" style="z-index: 20;"><a href="ezpd_pass.php">忘記密碼？</a></div>
+                <div class="clear"></div>
+              </li>
+              <li><input name="" type="submit" class="lp_sendbtn lb_sbw01" value="登入"><img src="http://reg.ezprice.com.tw/images/loading_icon.gif" width="30" id="loadimg2" style="display:none;"></li>
+              <li><div class="mblb_explain">還沒有EZprice比價網帳號嗎？<a href="ezpd_account.php">立即註冊</a></div></li>
+              </form>
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <script src='http://code.jquery.com/jquery-1.8.3.min.js'></script>
+    <script src='./style/js/ez_basic.js' type='text/javascript'></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="./style/js/jquery.magnific-popup.js"></script>
+    <script src="./style/js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+      $('.open-popup-link').magnificPopup({
+        type:'inline',
+        midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+      });
+    </script>
+    <script type="text/javascript">
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide"
+        });
+      });
+    </script>
+  </body>
+</html>
