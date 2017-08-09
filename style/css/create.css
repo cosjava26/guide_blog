@@ -627,7 +627,7 @@ a:link, a:visited {
   line-height: 64px;
 }
 ._fix .HD_Logo_img {
-  width: 200px;
+  width: 150px;
   height: auto;
   margin-top: -4px;
 }
@@ -667,6 +667,7 @@ a:link, a:visited {
 .HD_Logo_img {
   display: inline-block;
   vertical-align: middle;
+  width: 100%;
 }
 
 .HD_Menu {
@@ -3438,81 +3439,10 @@ h3 img {
   background-color: #ececec;
 }
 .clearfix:after{ content: ""; display: block; clear: both;}
-.tailbox{min-height: 230px;padding: 0;}
-.tail_logo{float: left;text-align:left;width: 25%;}
-.EZ_logo{
-  width: 174px;
-  height: 53px;
-  margin: 29px 0 0 7px;
-  background: url("../images/EZ-logo.png");
-}
-.EZ_slogan{
-  margin: 4px 0 0 10px;
-  font-size: 13px;
-  line-height: 1em;
-  color: #666;
-}
-.EZ_rights{
-  margin: 10px 0 0 10px;
-  font-size: 12px;
-  line-height: 20px;
-  color: #9a9b9d;
-  font-family: Verdana, "\u65b0\u7d30\u660e\u9ad4", Geneva, sans-serif;
-}
-.tail_list{
-  float: left;
-  text-align: left;
-  padding: 6px 0 0 13px;
-  margin-top: 19px;
-  border-left: 1px dashed #ccc;
-  width: 10%;
-  height: 190px;
-  overflow: hidden;
-}
-.tail_list .tail_title {
-  font-size: 15px;
-  color: #393f4e;
-  margin-bottom: 3px;
-}
-.tail_list .option {
-  display: block;
-  height: 22px;
-  line-height: 22px;
-  font-size: 13px;
-  color: #757d8f;
-}
-.tail_cooperation{
-  float: left;
-  width: 20%;
-  text-align: left;
-  padding: 6px 0 0 13px;
-  margin-top: 19px;
-  border-left: 1px dashed #ccc;
-  height: 173px;
-}
-.tail_cooperation .tail_title {
-  font-size: 15px;
-  color: #393f4e;
-  margin-bottom: 3px;
-}
-.tail_cooperation .co_logo {
-  float: left;
-  display: block;
-  width: 44%;
-  margin: 2px 13px 5px 0;
-}
-.tail_cooperation .option {
-  display: block;
-  height: 22px;
-  line-height: 22px;
-  font-size: 13px;
-  color: #757d8f;
-  float: left;
-  margin-top: 5px;
-}
-.tail_gotop {
-  float: right;
-}
+.tailbox{padding: 10px 0;}
+.tailbox ul{text-align: center;}
+.tailbox ul li{display: inline-block; padding: 0 5px;font-size: 14px;}
+
 .gotop_btn,
 .gotop_btn:hover,
 .gotop_btn:active {
