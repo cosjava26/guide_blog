@@ -53,3 +53,15 @@ PM整理以上需求，並討論相關解決方案，以下列點說明：
   <br />
   
   ![文章內頁](http://i.imgur.com/Vh8YlwO.png)
+  
+  3.作者單頁：
+  
+  https://cosjava26.github.io/guide_blog/author_list.html
+  
+  - 與文章內頁相同作者簡介區塊。
+  - 下方為該作者，所發表的文章列表，依瀏覽次數排序顯示。
+  - 文章左右兩篇，顯示需求：文章縮圖、標題、文章描述、編輯名字、發佈時間以及該篇文章FB的分享數。
+
+  <br />
+  
+  ![作者單頁](http://i.imgur.com/yducCZH.jpg)
