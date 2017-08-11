@@ -28,7 +28,7 @@ https://cosjava26.github.io/guide_blog/index.html
 PM整理以上需求，並討論相關解決方案，以下列點說明：
   1. 首頁版型改版，參考T客邦 https://www.techbang.com/ 等文章類的網站
   2. 文章內文格式，參考女人迷 https://womany.net/ 等文章類的網站。
-  3. 與工程師＆設計師討論，制定明確的文章內文**wordpress撰寫方針**，提供給文章編輯者。
+  3. 與工程師＆設計師討論，制定明確的文章內文**wordpress 後台撰寫方針**，提供給文章編輯者。
   4. 優化手機版文章瀏覽的體驗。
 <br />
 
