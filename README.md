@@ -2,6 +2,10 @@
 購物達人
 https://cosjava26.github.io/guide_blog/index.html
 
+<p align="center">
+  <img src="http://i.imgur.com/811d34m.png">
+</p> 
+
 ## 改版過程：
 <p align="center">
   <img src="http://i.imgur.com/KajoSVQ.png">
